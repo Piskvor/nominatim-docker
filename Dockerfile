@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER Jan Nonnen <helvalius@gmail.com>
 # Define the OSM argument, use monaco as default
-ARG OSM=http://download.geofabrik.de/europe/monaco-latest.osm.pbf
+ARG OSM=https://o.piskvor.org/praha_from_cz.pbf
 
 RUN apt-get update
 
